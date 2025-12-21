@@ -1,15 +1,30 @@
 {
-    "manifest_version": 3,
-    "name": "Quizlet Unblur",
-    "version": "1.0",
-    "description": "Removes blur effect and specific elements from Quizlet pages",
-    "permissions": ["scripting"],
-    "host_permissions": ["*://*.quizlet.com/*"],
-    "content_scripts": [
-      {
-        "matches": ["*://*.quizlet.com/*"],
-        "js": ["content.js"],
-        "run_at": "document_idle"
-      }
-    ]
+  "manifest_version": 3,
+  "name": "Quizlet De-Blur & Paywall Remover",
+  "version": "1.0.0",
+  "description": "Removes paywalls, popups, and unblurs content on Quizlet.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://quizlet.com/*",
+    "*://www.quizlet.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://quizlet.com/*",
+        "*://www.quizlet.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
+}

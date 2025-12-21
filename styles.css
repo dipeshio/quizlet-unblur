@@ -1,0 +1,40 @@
+/*
+  Quizlet De-Blur & Paywall Remover - Styles
+  Targeting known paywall classes and overlays.
+*/
+
+/* Remove Overlays */
+div[data-testid="PayWallOverlay"],
+.p2gybnk,
+.p11u758u,
+div.PayWallOverlay,
+section.oxutk4g {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
+
+/* Unblur Content */
+.TermText,
+.TermContent,
+.FormattedText,
+.SetPageTerm-content,
+.SetPageTerms-term,
+.SetPageTerms-definition {
+    filter: none !important;
+    -webkit-filter: none !important;
+    user-select: auto !important;
+    -webkit-user-select: auto !important;
+}
+
+/* Force unblur on any element with filter: blur */
+* {
+    filter: none !important;
+}
+
+/* Restore Interaction (Scrolling) */
+body, html {
+    overflow: auto !important;
+    height: auto !important;
+    position: relative !important;
+}
