@@ -15,4 +15,4 @@ This extension automatically removes paywall overlays, login popups, and artific
 Just navigate to Quizlet; the extension runs automatically in the background.
 
 ## Note
-This project is for educational purposes only. Please support creators by purchasing a subscription if you find their platform valuable.
+This project is for educational purposes only :p
