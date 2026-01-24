@@ -1,18 +1,15 @@
-# Quizlet De-Blur & Paywall Remover
+# 🔓 quizlet-unblur-extension
 
-A lightweight Chrome Extension (Manifest V3) that passively removes user-hostile elements from Quizlet.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Description
-This extension automatically removes paywall overlays, login popups, and artificial blurring of content on Quizlet, ensuring a seamless studying experience.
+A Chrome extension that removes the blurred paywall overlay on Quizlet to reveal hidden flashcard content.
 
-## Installation
-1. Clone this repository to your local machine.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable **Developer mode** in the top right corner.
-4. Click **Load unpacked** and select the project folder.
+## Setup
 
-## Usage
-Just navigate to Quizlet; the extension runs automatically in the background.
+1. Open `chrome://extensions`
+2. Enable Developer Mode
+3. Load unpacked extension
 
-## Note
-This project is for educational purposes only :p
+## License
+
+MIT © 2026 dipeshio
