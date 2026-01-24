@@ -1,15 +1,15 @@
-# 🔓 quizlet-unblur-extension
+# quizlet-unblur-extension
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+Chrome extension that removes blur/paywall overlays on Quizlet study sets for personal use.
 
-A Chrome extension that removes the blurred paywall overlay on Quizlet to reveal hidden flashcard content.
+## Files
+- manifest.json – extension config
+- content.js – unblurring logic
+- styles.css – override styles
+- docs/ – captured samples
 
-## Setup
-
-1. Open `chrome://extensions`
-2. Enable Developer Mode
-3. Load unpacked extension
+## Load
+1) Open chrome://extensions and enable Developer Mode. 2) Click "Load unpacked" and select this folder.
 
 ## License
-
-MIT © 2026 dipeshio
+MIT
